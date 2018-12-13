@@ -12,7 +12,7 @@
 namespace Enqueue\MessengerAdapter;
 
 use Interop\Queue\PsrContext;
-use Symfony\Component\DependencyInjection\ContainerInterface;
+use Psr\Container\ContainerInterface;
 use Symfony\Component\Messenger\Transport\TransportFactoryInterface;
 use Symfony\Component\Messenger\Transport\TransportInterface;
 use Symfony\Component\Messenger\Transport\ReceiverInterface;
