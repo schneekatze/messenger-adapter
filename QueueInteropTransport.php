@@ -93,10 +93,8 @@ class QueueInteropTransport implements TransportInterface
                 $consumer->reject($message);
             } catch (RequeueMessageException $e) {
                 $consumer->reject($message, true);
-            } catch (\Throwable $e) {
-                $consumer->reject($message);
-            }
-        }
+	    }
+	}
     }
 
     /**
